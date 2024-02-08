@@ -49,4 +49,5 @@ spec:
       - name: args
         value: ["--count","--max-complexity=10","--max-line-length=127","--statistics", "--ignore=E302,E303,F821"]
       runAfter:
-        - clone 
+        - clone
+      
